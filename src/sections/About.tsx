@@ -3,6 +3,7 @@ import { useInView } from 'framer-motion';
 import { useRef } from 'react';
 import { Code2, Palette, Sparkles, Zap, Download } from 'lucide-react';
 import { fadeInUp, staggerContainer, slideInLeft, slideInRight } from '../utils/animations';
+import cvFile from '../assets/cv/TREASURE JACHIKE  CV.pdf';
 
 const highlights = [
   {
@@ -128,7 +129,9 @@ export function About() {
               
               {/* CV Download Button */}
               <motion.a
-                href="src/assets/cv/TREASURE JACHIKE  CV.pdf" download="TREASURE JACHIKE  CV.pdf" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 px-6 py-3 bg-brand-primary hover:bg-brand-secondary text-white font-semibold rounded-full transition-all duration-300 shadow-lg hover:shadow-xl mt-4"
+                href={cvFile}
+                download="TREASURE JACHIKE  CV.pdf"
+                className="inline-flex items-center gap-2 px-6 py-3 bg-brand-primary hover:bg-brand-secondary text-white font-semibold rounded-full transition-all duration-300 shadow-lg hover:shadow-xl mt-4"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
