@@ -153,8 +153,7 @@ export function Hero() {
               Get In Touch
             </motion.a>
             <motion.a
-              href="/TREASURE%20JACHIKE%20CV.pdf"
-              download
+              href="C:\\Users\\USER\\Desktop\\New portfolio\\TREASURE JACHIKE  CV.pdf" download="TREASURE JACHIKE  CV.pdf"
               className="px-8 py-4 bg-gray-900 dark:bg-white text-white dark:text-gray-900 font-semibold rounded-full transition-all duration-300 shadow-lg hover:shadow-xl flex items-center gap-2"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}

@@ -128,7 +128,7 @@ export function About() {
               
               {/* CV Download Button */}
               <motion.a
-                href="/TREASURE%20JACHIKE%20CV.pdf"
+                href="C:\\Users\\USER\\Desktop\\New portfolio\\TREASURE JACHIKE  CV.pdf"
                 download
                 className="inline-flex items-center gap-2 px-6 py-3 bg-brand-primary hover:bg-brand-secondary text-white font-semibold rounded-full transition-all duration-300 shadow-lg hover:shadow-xl mt-4"
                 whileHover={{ scale: 1.05 }}
